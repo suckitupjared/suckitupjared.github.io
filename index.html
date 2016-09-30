@@ -154,7 +154,7 @@ body, html {
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
       <!-- Add Google Maps -->
-      <div id="googleMap" class="w3-round-large"></div>
+      <div id="googleMap" ></div>
     </div>
     <div class="w3-col m8 w3-container w3-section">
       <div class="w3-large w3-margin-bottom">
@@ -180,7 +180,7 @@ function initialize() {
 var mapProp = {
   center: myCenter,
   zoom: 12,
-  scrollwheel: false,
+  scrollwheel: true,
   draggable: false,
   mapTypeId: google.maps.MapTypeId.ROADMAP
   };
